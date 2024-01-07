@@ -5,6 +5,7 @@ import weather from '../images/weather.png';
 import portfolio from '../images/portfolio.png';
 import blackjack from '../images/blackjack.png';
 import tictactoe from '../images/tictactoe.png';
+import resume from './Raiyan-Khan-Resume.pdf';
 
 export const Bio = {
   name: "Raiyan Khan",
@@ -18,8 +19,8 @@ export const Bio = {
     "I am a second-year Computer Engineering Student at the University of British Columbia in Vancouver, BC. I am passionate about learning new technologies and building projects that can help people in their day-to-day lives. To learm more about me, just keep scrolling!",
   github: "https://github.com/raiyan-2002",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    `${resume}`,
+  linkedin: "https://www.linkedin.com/in/raiyan02/",
 };
 
 export const skills = [
