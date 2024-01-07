@@ -2,7 +2,7 @@
 
 I made this website using React as a project to display all my projects and skills in one place!
 
-The website was deployed using Netlfy and can be accessed [here](raiyan-khan.netlify.app).
+The website was deployed using Netlfy and can be accessed [here](https://raiyan-khan.netlify.app).
 
 ## Run Project Locally
 
