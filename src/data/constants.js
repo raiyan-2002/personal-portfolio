@@ -143,6 +143,25 @@ export const skills = [
 
 export const projects = [
   {
+    id: 2,
+    title: "Quacker",
+    date: "August 2023",
+    description:
+      "This is a Twitter clone that I built using Django, Python and JavaScript. Users can post \"Quacks\", like other posts, and follow other users. This project gave me valuable insight on how to use asynchonous API calls from the front-end to the back-end to update Django models which store data pertaining to users and their posts.",
+    image:
+      `${quacker}`,
+    tags: [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Django",
+      "Bootstrap",
+    ],
+    category: "web app",
+    github: "https://github.com/raiyan-2002/Quacker",
+  },
+  {
     id: 0,
     title: "Stock Trading Simulator",
     date: "May 2023",
@@ -162,6 +181,30 @@ export const projects = [
     github: "https://github.com/raiyan-2002/Finance",
   },
   {
+    id: 7,
+    title: "Internet of Things (IoT) Data Analytics",
+    date: "November 2023 - December 2023",
+    description:
+      "This project designed the back-end of an Internet of Things (IoT) server, which simulates sending data from switches and sensors to a server, to which clients can send data analytics and configuration requests to. The server was designed using the java.net library, and can serve multiple clients concurrently.",
+    image:
+    "https://news.mit.edu/sites/default/files/images/202011/MIT-Tiny-AI-01.jpg",
+    tags: ["Java", "Network Programming"],
+    category: "network",
+    github: "https://github.com/raiyan-2002/IOT",
+  },
+  {
+    id: 9,
+    title: "Personal Portfolio Website",
+    date: "December 2023 - January 2024",
+    description:
+      "This project was built using React, and it helped me grasp the fundamentals of the library. The goal of this project was to make an aesthetically pleasing portfolio which had all of my projects and skills in the same place. (If it wasn't abundantly clear, this is the website you are on right now).",
+    image:
+    `${portfolio}`,
+    tags: ["JavaScript", "React JS", "HTML", "CSS", "React Bootstrap"],
+    category: "web app",
+    github: "https://github.com/raiyan-2002/personal-portfolio",
+  },
+  {
     id: 1,
     title: "Mail App",
     date: "July 2023",
@@ -172,25 +215,6 @@ export const projects = [
     tags: ["Python", "JavaScript", "HTML", "CSS", "Django"],
     category: "web app",
     github: "https://github.com/raiyan-2002/Mail",
-  },
-  {
-    id: 2,
-    title: "Quacker",
-    date: "August 2023",
-    description:
-      "This is a Twitter clone that I built using Django, Python and JavaScript. Users can post \"Quacks\", like other posts, and follow other users. This project gave me valuable insight on how to use asynchonous API calls from the front-end to the back-end to update Django models which store data pertaining to users and their posts.",
-    image:
-      `${quacker}`,
-    tags: [
-      "Python",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Django",
-      "Bootstrap",
-    ],
-    category: "web app",
-    github: "https://github.com/raiyan-2002/Quacker",
   },
   {
     id: 3,
@@ -241,18 +265,6 @@ export const projects = [
     github: "https://github.com/raiyan-2002/TicTacToe",
   },
   {
-    id: 7,
-    title: "Internet of Things (IoT) Data Analytics",
-    date: "November 2023 - December 2023",
-    description:
-      "This project basically designed the back-end of an Internet of Things (IoT) server, which simulates sending data from switches and sensors to a server, to which clients can send data analytics and configuration requests to. The server was designed using the java.net library, and can serve multiple clients concurrently.",
-    image:
-    "https://news.mit.edu/sites/default/files/images/202011/MIT-Tiny-AI-01.jpg",
-    tags: ["Java", "Network Programming"],
-    category: "network",
-    github: "https://github.com/raiyan-2002/IOT",
-  },
-  {
     id: 8,
     title: "Simple RISC Machine",
     date: "October 2023 - December 2023",
@@ -263,17 +275,5 @@ export const projects = [
     tags: ["SystemVerilog", "ARM v7", "FPGA"],
     category: "hardware",
     github: "https://github.com/raiyan-2002/RISC",
-  },
-  {
-    id: 9,
-    title: "Personal Portfolio Website",
-    date: "December 2023 - January 2024",
-    description:
-      "This project was built using React, and it helped me grasp the fundamentals of the library. The goal of this project was to make an aesthetically pleasing portfolio which had all of my projects and skills in the same place. (If it wasn't abundantly clear, this is the website you are on right now).",
-    image:
-    `${portfolio}`,
-    tags: ["JavaScript", "React JS", "HTML", "CSS", "React Bootstrap"],
-    category: "web app",
-    github: "https://github.com/raiyan-2002/personal-portfolio",
   },
 ];
