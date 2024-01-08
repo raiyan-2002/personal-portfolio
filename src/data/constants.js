@@ -147,7 +147,7 @@ export const projects = [
     title: "Stock Trading Simulator",
     date: "May 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "This stock trading platform allows users to buy and sell stock shares, and look up their market values in real time! I developed this using the Flask framework in Python, and a SQL database to store user information. It's a great way to simluate stock trading without any risk!",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
     tags: [
@@ -166,7 +166,7 @@ export const projects = [
     title: "Mail App",
     date: "July 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "This project is a single - page web application that allows users to send, receive, and reply to emails from other users. The main goal of this project was to build fluency in front - end development, as I mainly used JavaScript for the functionality of the app. I used HTTP request methods in API calls using JavaScript to modify JSON data pertaining to each email and developed a dynamic interface which allows users to compose and view their emails without a refresh of the page.  ",
     image:
       `${mail}`,
     tags: ["Python", "JavaScript", "HTML", "CSS", "Django"],
@@ -178,7 +178,7 @@ export const projects = [
     title: "Quacker",
     date: "August 2023",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "This is a Twitter clone that I built using Django, Python and JavaScript. Users can post \"Quacks\", like other posts, and follow other users. This project gave me valuable insight on how to use asynchonous API calls from the front-end to the back-end to update Django models which store data pertaining to users and their posts.",
     image:
       `${quacker}`,
     tags: [
@@ -197,7 +197,7 @@ export const projects = [
     title: "eCommerce Site",
     date: "July 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "This is an eBay style eCommerce site which allows users to put items up for auctioning, and bid on other items. Owners of an item have the ability to choose a category for their listed items, set a starting bid, and choose when to close the auction. Buyers can place bids (granted they are larger than the current bid or starting bid) and can leave comments on items.",
     image:
     `${commerce}`,
     tags: ["Python", "HTML", "CSS", "Django"],
@@ -209,7 +209,7 @@ export const projects = [
     title: "Weather App",
     date: "April 2023",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "This is a weather app that I made using a weather API. It taught me on how to use APIs in Python, and how to parse JSON data. Users can simply type in a city in the search bar and find lots of relevant temperature and weather information about that city. Using flask sessions, users are able to set their desired units of measurement and default city, and the app will remember their preferences. ",
     image:
     `${weather}`,
     tags: ["Python", "HTML", "CSS", "Bootstrap", "Flask", "APIs"],
@@ -245,7 +245,7 @@ export const projects = [
     title: "Internet of Things (IoT) Data Analytics",
     date: "November 2023 - December 2023",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "This project basically designed the back-end of an Internet of Things (IoT) server, which simulates sending data from switches and sensors to a server, to which clients can send data analytics and configuration requests to. The server was designed using the java.net library, and can serve multiple clients concurrently.",
     image:
     "https://news.mit.edu/sites/default/files/images/202011/MIT-Tiny-AI-01.jpg",
     tags: ["Java", "Network Programming"],
@@ -257,7 +257,7 @@ export const projects = [
     title: "Simple RISC Machine",
     date: "October 2023 - December 2023",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "This hardware project led to the development of a simple computer which is capable of storing 16 bit ARM v7 instructions in memory, and executing them. ModelSim and Quartus were used to simluate and synthesize the Verilog design, and it was run on a SoC-DE1 FPGA board.",
     image:
      "https://i.ytimg.com/vi/aPXMkTJxD_s/maxresdefault.jpg",
     tags: ["SystemVerilog", "ARM v7", "FPGA"],
@@ -274,6 +274,6 @@ export const projects = [
     `${portfolio}`,
     tags: ["JavaScript", "React JS", "HTML", "CSS", "React Bootstrap"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
+    github: "https://github.com/raiyan-2002/personal-portfolio",
   },
 ];
