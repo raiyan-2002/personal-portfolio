@@ -5,6 +5,7 @@ import weather from '../images/weather.png';
 import portfolio from '../images/portfolio.png';
 import blackjack from '../images/blackjack.png';
 import tictactoe from '../images/tictactoe.png';
+import finance from '../images/finance.png';
 import resume from './Raiyan-Khan-Resume.pdf';
 
 export const Bio = {
@@ -168,7 +169,7 @@ export const projects = [
     description:
       "This stock trading platform allows users to buy and sell stock shares, and look up their market values in real time! I developed this using the Flask framework in Python, and a SQL database to store user information. It's a great way to simluate stock trading without any risk!",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      `${finance}`,
     tags: [
       "Python",
       "SQL",
